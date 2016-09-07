@@ -18,7 +18,7 @@
         android:text="@string/app_title"
         android:id="@+id/textView"
         android:gravity="center_horizontal"
-        android:paddingBottom="20dp" />
+        android:paddingBottom="@dimen/paddingTwenty" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -89,8 +89,6 @@
             android:hint="@string/hint_yearlyInterestRate"
             android:inputType="numberDecimal"
             android:id="@+id/yearlyInterestRate"/>
-
-
     </LinearLayout>
 
 
@@ -121,7 +119,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center_horizontal"
         android:text="@string/results"
-        android:paddingTop="5dp" />
+        android:paddingTop="@dimen/paddingFive" />
 
 
 
